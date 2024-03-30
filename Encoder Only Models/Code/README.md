@@ -1,4 +1,4 @@
-# Encoder Models:
+# 1. Encoder Models:
 
 Encoder models are neural network architectures used for processing sequential data like text, converting it into fixed-dimensional vector representations. They employ layers of processing units such as recurrent neural networks (RNNs), convolutional neural networks (CNNs), or self-attention mechanisms. These models are integral to modern NLP systems, as they transform raw text data into numerical embeddings, capturing both semantic and syntactic information.
 
@@ -38,16 +38,20 @@ Encoder models are neural network architectures used for processing sequential d
 
   Workflow:
 
-## Text Embedding Extraction:
+# 2. BERT and other Pre-Trained Models Embeddings:
 
-- Encoder models are used to process input text sequences and generate embeddings that capture the semantic and contextual information of the text.
-These embeddings represent the text in a numerical format suitable for further processing by downstream tasks.
+BERT (Bidirectional Encoder Representations from Transformers) is a state-of-the-art pre-trained language model developed by Google, employing bidirectional training and attention mechanisms to understand language contextually. Unlike traditional word embeddings, which consider each word in isolation, BERT takes into account the entire context of a word by using a technique called Bi-Directional training.
 
-## Model Integration:
+- BERT generates embeddings not just for individual words, but for entire sentences or paragraphs.
+- These embeddings capture rich contextual information, allowing the model to understand nuances and complexities in language more effectively.
+- One key advantage of pre-trained models like BERT is that they have been trained on vast amounts of text data, making them capable of understanding language across a wide range of domains and tasks.
+- Instead of training a language model from scratch, we can leverage pre-trained embeddings from models like BERT and fine-tune them for specific downstream tasks, such as sentiment analysis, question answering, or text classification.
 
-- The extracted embeddings are then passed to the downstream model architecture, which could include various machine learning or deep learning models tailored for specific tasks, such as classification, named entity recognition, sentiment analysis, etc.
+## Usage in Project 
+In our project, we leverage the "Bert-based-uncased" model to extract embeddings, which are then stored in .pt (PyTorch Tensor format) files for future use. By harnessing pre-trained embeddings from BERT, we improve the performance of natural language processing tasks, facilitating a more precise and nuanced comprehension of textual data.
 
-## Results Generation:
-
-- Finally, the integrated model architecture processes the embeddings and generates results.
+- The "Bert-based-uncased" model is utilized in our project for extracting embeddings.
+- Embeddings extracted from BERT are saved in .pt files, preserving them in PyTorch Tensor format.
+- Leveraging pre-trained embeddings from BERT enhances the performance of natural language processing tasks.
+- Utilizing BERT embeddings enables a more accurate and nuanced understanding of textual data in our project context.
 
