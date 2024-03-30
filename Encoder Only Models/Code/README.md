@@ -55,3 +55,6 @@ In our project, we leverage the "Bert-based-uncased" model to extract embeddings
 - Leveraging pre-trained embeddings from BERT enhances the performance of natural language processing tasks.
 - Utilizing BERT embeddings enables a more accurate and nuanced understanding of textual data in our project context.
 
+# 3. Multi-Tasking Model Architecture
+
+
