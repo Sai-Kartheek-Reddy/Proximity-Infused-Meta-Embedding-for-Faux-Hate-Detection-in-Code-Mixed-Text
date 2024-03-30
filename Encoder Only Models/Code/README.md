@@ -57,4 +57,37 @@ In our project, we leverage the "Bert-based-uncased" model to extract embeddings
 
 # 3. Multi-Tasking Model Architecture
 
+## Data Loading and Preprocessing:
+
+- It loads a dataset from an Excel file containing hate speech and fake content labels.
+- Embeddings are loaded from a .pt file using PyTorch and converted to NumPy arrays.
+- The labels for fake and hate speech are prepared and converted into NumPy arrays.
+- The data is split into training and testing sets using train_test_split.
+
+## Custom Dataset and Data Loaders:
+
+- Defines a custom dataset class, MultiTaskDataset, to handle the embeddings and labels for both tasks.
+- Creates data loaders for training and testing using the custom dataset.
+
+## Model Architecture:
+
+- Defines a multi-task classification model using TensorFlow.
+- The model consists of two branches, one for detecting fake content and the other for detecting hate speech.
+- Each branch has a dense layer with ReLU activation followed by a dense layer with a linear activation.
+
+## Model Training:
+
+- Compiles the model using hinge loss as the loss function and Adam optimizer.
+- Trains the model for a specified number of epochs.
+- Calculates and stores metrics such as accuracy, precision, recall, and F1 score for each epoch.
+
+## Evaluation and Metrics:
+
+- Evaluates the model on the test set and calculates metrics such as accuracy, precision, recall, and F1 score for both tasks.
+- Tracks the highest F1 score and the epoch at which it occurred for each task.
+- Prints classification reports for both tasks and the overall F1 score for the test data.
+
+## Visualization:
+
+- Plots the accuracy and F1 score over epochs for both tasks.
 
