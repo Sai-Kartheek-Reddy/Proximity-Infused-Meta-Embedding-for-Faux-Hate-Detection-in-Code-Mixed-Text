@@ -17,6 +17,8 @@ In this project, we have scraped data from Twitter and YouTube based on the foll
 - Pathan movie insulting Hindu.
 - Adani and Edinburgh report.
 
+Note: We used these claims as a reference to classify the particular record as Fake or Non-Fake.
+
 We applied pre-processing steps to clean the data, such as removing special characters. We utilized AI4Bharat tools such as IndicXlit for transliteration from code-mixed Hindi and English (Hinglish) to complete Hindi. Subsequently, we employed IndicTrans2 to translate the Hindi data to English.
 
 ## Encoder-Only Model Utilization
