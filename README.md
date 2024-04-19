@@ -7,14 +7,14 @@
 
 In this project, we have scraped data from Twitter and YouTube based on the following claims:
 
-- China is using corona as a biological weapon.
-- Tablighi jamat using COVID-19 as biological terrorism.
-- Farmer protest link to Khalistan.
-- Wrestler protest.
-- Shaheen Bagh women getting paid CAA.
+- China is using coronavirus as a biological weapon.
+- Tablighi Jamaat using COVID-19 as biological terrorism.
+- Farmer protests linked to Khalistan.
+- Wrestler protests.
+- Shaheen Bagh women getting paid for protesting against CAA.
 - GPS chips installed in 2000 notes.
 - Hindus are under threat.
-- Pathan movie insulting Hindu.
+- Pathan movie insulting Hindus.
 - Adani and Hindenburg report.
 
 Note: We used these claims as a reference to classify the particular record as Fake or Non-Fake.
