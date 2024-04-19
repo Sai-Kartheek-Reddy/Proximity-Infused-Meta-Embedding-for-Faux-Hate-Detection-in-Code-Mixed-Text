@@ -21,6 +21,7 @@ We applied pre-processing steps to clean the data, such as removing special char
 
 ## Data Pre-Processing Flow
 
+![Data-Pre-Processing-Flow](https://github.com/Sai-Kartheek-Reddy/Hate-and-Fake-Speech-Detection/blob/main/2.%20Translation%20and%20Transliteration/Data%20Pre-Processing%20Steps.png)
 
 
 ## Encoder-Only Model Utilization
@@ -42,3 +43,6 @@ We used various encoder models to extract embeddings from the data. These embedd
 ## Model Architecture
 
 After that, we built a shared-layer architecture where one layer is for processing hate data and another layer is for processing fake data, and we obtained the results.
+
+![Hate-and-Fake-Shared-Layer-Architecture](https://github.com/Sai-Kartheek-Reddy/Hate-and-Fake-Speech-Detection/blob/main/3.%20Encoder%20Only%20Models/Code/Model%20Architecture.jpg)
+
