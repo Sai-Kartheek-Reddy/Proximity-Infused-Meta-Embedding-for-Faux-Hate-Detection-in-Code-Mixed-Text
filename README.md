@@ -1,1 +1,35 @@
 # Hate-Speech-and-Fake-Content-Using-a-Cluster-Based-Approach
+
+## Project Overview
+
+In this project, we have scraped data from Twitter and YouTube based on the following claims:
+
+- China is using corona as a biological weapon.
+- Tablighi jamat using COVID-19 as biological terrorism.
+- Farmer protest link to Khalistan.
+- Wrestler protest.
+- Shaheen Bagh women getting paid CAA.
+- GPS chips installed in 2000 notes.
+- Hindus are under threat.
+- Pathan movie insulting Hindu.
+- Adani and Edinburgh report.
+
+## Data Collection and Pre-processing
+
+We utilized AI4Bharat tools such as IndicXlit for transliteration from code-mixed Hindi and English (Hinglish) to complete Hindi. Subsequently, we employed IndicTrans2 to translate the Hindi data to English. After obtaining both Hindi and English data, we applied pre-processing steps to clean the data, such as removing special characters.
+
+## Encoder-Only Model Utilization
+
+We used various encoder models to extract embeddings from the data. These embeddings were then stored in ".pt" format (PyTorch Tensor) for further analysis.
+
+### For English Text
+- BERT
+- XLM-Roberta
+- ALBERT
+- ELECTRA
+
+### For Hindi Text
+
+- mBERT (Multi-Lingual BERT)
+- XLM-Roberta
+- ALBERT
