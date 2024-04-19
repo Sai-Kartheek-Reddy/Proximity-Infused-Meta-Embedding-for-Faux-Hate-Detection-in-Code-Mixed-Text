@@ -2,6 +2,9 @@
 
 ## Project Overview
 
+
+## Data Collection and Pre-processing
+
 In this project, we have scraped data from Twitter and YouTube based on the following claims:
 
 - China is using corona as a biological weapon.
@@ -14,9 +17,11 @@ In this project, we have scraped data from Twitter and YouTube based on the foll
 - Pathan movie insulting Hindu.
 - Adani and Edinburgh report.
 
-## Data Collection and Pre-processing
+We applied pre-processing steps to clean the data, such as removing special characters. We utilized AI4Bharat tools such as IndicXlit for transliteration from code-mixed Hindi and English (Hinglish) to complete Hindi. Subsequently, we employed IndicTrans2 to translate the Hindi data to English.
 
-We utilized AI4Bharat tools such as IndicXlit for transliteration from code-mixed Hindi and English (Hinglish) to complete Hindi. Subsequently, we employed IndicTrans2 to translate the Hindi data to English. After obtaining both Hindi and English data, we applied pre-processing steps to clean the data, such as removing special characters.
+## Data Pre-Processing Flow
+
+
 
 ## Encoder-Only Model Utilization
 
