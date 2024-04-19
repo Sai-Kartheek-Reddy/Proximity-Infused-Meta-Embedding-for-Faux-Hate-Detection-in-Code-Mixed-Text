@@ -33,3 +33,7 @@ We used various encoder models to extract embeddings from the data. These embedd
 - mBERT (Multi-Lingual BERT)
 - XLM-Roberta
 - ALBERT
+
+## Model Architecture
+
+After that, we built a shared-layer architecture where one layer is for processing hate data and another layer is for processing fake data, and we obtained the results.
