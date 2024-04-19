@@ -15,7 +15,7 @@ In this project, we have scraped data from Twitter and YouTube based on the foll
 - GPS chips installed in 2000 notes.
 - Hindus are under threat.
 - Pathan movie insulting Hindu.
-- Adani and Edinburgh report.
+- Adani and Hindenburg report.
 
 Note: We used these claims as a reference to classify the particular record as Fake or Non-Fake.
 
