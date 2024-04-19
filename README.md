@@ -19,11 +19,6 @@ In this project, we have scraped data from Twitter and YouTube based on the foll
 
 We applied pre-processing steps to clean the data, such as removing special characters. We utilized AI4Bharat tools such as IndicXlit for transliteration from code-mixed Hindi and English (Hinglish) to complete Hindi. Subsequently, we employed IndicTrans2 to translate the Hindi data to English.
 
-## Data Pre-Processing Flow
-
-![Data-Pre-Processing-Flow](https://github.com/Sai-Kartheek-Reddy/Hate-and-Fake-Speech-Detection/blob/main/2.%20Translation%20and%20Transliteration/Data%20Pre-Processing%20Steps.png)
-
-
 ## Encoder-Only Model Utilization
 
 We used various encoder models to extract embeddings from the data. These embeddings were then stored in ".pt" format (PyTorch Tensor) for further analysis.
@@ -39,6 +34,11 @@ We used various encoder models to extract embeddings from the data. These embedd
 - mBERT (Multi-Lingual BERT)
 - XLM-Roberta
 - ALBERT
+
+## Data Pre-Processing and Embedding Extraction Workflow
+
+![Data-Pre-Processing-Flow](https://github.com/Sai-Kartheek-Reddy/Hate-and-Fake-Speech-Detection/blob/main/2.%20Translation%20and%20Transliteration/Data%20Pre-Processing%20Steps.png)
+
 
 ## Model Architecture
 
