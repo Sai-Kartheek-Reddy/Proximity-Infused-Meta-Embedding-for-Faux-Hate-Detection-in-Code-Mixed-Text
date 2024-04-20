@@ -61,7 +61,7 @@ After that, we built a shared-layer architecture where one layer is for processi
 
 - Defines a multi-task classification model using TensorFlow.
 - The model consists of two branches, one for detecting fake content and the other for detecting hate speech.
-- Each branch has a dense layer with ReLU activation followed by a dense layer.
+- Each branch has a dense layer with ReLU activation followed by a dense layer with Sigmoid activation function.
 
 ![Hate-and-Fake-Shared-Layer-Architecture](https://github.com/Sai-Kartheek-Reddy/Hate-and-Fake-Speech-Detection/blob/main/3.%20Encoder%20Only%20Models/Code/Model%20Architecture.jpg)
 
