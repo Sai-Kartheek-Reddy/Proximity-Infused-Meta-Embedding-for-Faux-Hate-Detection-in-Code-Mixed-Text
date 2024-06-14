@@ -1,4 +1,4 @@
-# Hate-Speech-and-Fake-Content-Using-a-Cluster-Based-Approach
+# Proximity-Infused-Meta-Embedding-for-Faux-Hate-Detection-in-Code-Mixed-Text
 
 ## Project Overview
 
