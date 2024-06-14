@@ -21,6 +21,10 @@ Note: We used these claims as a reference to classify the particular record as F
 
 We applied pre-processing steps to clean the data, such as removing special characters. We utilized AI4Bharat tools such as IndicXlit for transliteration from code-mixed Hindi and English (Hinglish) to complete Hindi. Subsequently, we employed IndicTrans2 to translate the Hindi data to English.
 
+## Quick Look at Dataset Samples
+
+![Dataset-Samples](https://github.com/Sai-Kartheek-Reddy/Proximity-Infused-Meta-Embedding-for-Faux-Hate-Detection-in-Code-Mixed-Text/blob/main/1.%20Dataset/1.%20Dataset.png)
+
 ## Encoder-Only Model Utilization
 
 We used various encoder models to extract embeddings from the data. These embeddings were then stored in ".pt" format (PyTorch Tensor) for further analysis.
